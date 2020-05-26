@@ -1,0 +1,1130 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #1C1C1C;
+    margin: 0;
+}
+
+
+/* NAV BAR*/
+
+.navbar {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    z-index: 9999;
+    margin: 0;
+   
+}
+
+main {
+    margin: 2.083vw;
+}
+
+
+
+.nav-item {
+    display: block;
+    float: right;
+    margin-right: 0;
+    padding-right: 2vw;
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+
+.nav-item:hover{ 
+    color: #0165E3;
+}
+
+.logo {
+    padding-left: 2vw;
+    max-height: 4vw;
+
+}
+
+
+
+
+
+/* FÖRSTA SIDAN:
+index sidan*/
+
+
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    padding-top: 13vw;
+    padding-bottom: 8vw;
+    padding-left: 4vw;
+    padding-right: 6vw;
+    }
+
+
+
+h2 {
+    margin-top: 0.5vw;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 0.5vw;
+}
+    
+
+.heading {
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+
+
+/* PROJEKTEN */
+
+
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2.083vw;
+    max-width: 100%;
+}
+
+
+.card {
+    position: relative;
+}
+
+.text {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    transition: opacity 100ms ease-out;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.card:hover .text {
+    opacity: 1;
+}
+
+.media {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+.card2 {
+    position: relative;
+}
+
+.text2 {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    transition: opacity 100ms ease-out;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.card2:hover .text2 {
+    opacity: 1;
+}
+
+.media2 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+.card3 {
+    position: relative;
+}
+
+.text3 {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    transition: opacity 100ms ease-out;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.card3:hover .text3 {
+    opacity: 1;
+}
+
+.media3 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+.card4 {
+    position: relative;
+}
+
+.text4 {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    transition: opacity 100ms ease-out;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.card4:hover .text4 {
+    opacity: 1;
+}
+
+.media4 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+.card5 {
+    position: relative;
+}
+
+.text5 {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    transition: opacity 100ms ease-out;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.card5:hover .text5 {
+    opacity: 1;
+}
+
+.media5 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.card6 {
+    position: relative;
+}
+
+.text6 {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    transition: opacity 100ms ease-out;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.card6:hover .text6 {
+    opacity: 1;
+}
+
+.media6 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.mail-link {
+    color: #2284FF;
+    text-decoration: none;
+    margin: 0;
+    font-size: 1.125rem;
+}
+
+.mail-link:hover, .link-flickr:hover { 
+    color: #0165E3;
+}
+
+
+.line-mail {
+    color: black;
+}
+
+
+footer {
+    padding-top: 1vw;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+    align-items: end;
+}
+
+.instagram {
+    padding-left: 8px;
+}
+
+
+
+.facebook {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+
+svg {
+    width: 4vh;
+    fill:#8c8c8c;
+}
+
+svg:hover {
+    fill:#0165E3;
+}
+
+
+
+.contact {
+    margin-top: 1vw;
+}
+
+
+
+
+
+
+
+
+/* ARTSY SIDAN:
+andra sidan*/
+
+
+h1 {
+    margin-bottom: 0;   
+    margin-top: 0;
+
+}
+
+
+.heading-container {
+    padding-top: 13vh;
+    padding-left: 1.8vw;
+
+}
+
+
+.grid-container {
+    display: grid; 
+    justify-items: center;
+    grid-template-columns: 5fr 5fr 5fr 5fr;
+    grid-template-rows: repeat(5, 1fr); 
+    grid-gap: 1.389vw;
+    padding-top: 10vh;
+}
+
+    
+.gallery__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.gallery__item--3 {
+    grid-column: span 2;
+}
+
+
+.gallery__item--4 {
+    grid-column: span 2;
+}
+
+.gallery__item--11 {
+    grid-column: span 2;
+}
+
+.gallery__item--12 {
+    grid-column: span 2;
+}
+
+
+
+.link-flickr {
+    color: #45B8F7;
+    text-decoration: none;
+}
+
+
+
+
+
+/* ABOUT ME
+tredje sidan*/
+
+.about-container {
+    display: grid; 
+    justify-items: left;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3vw;
+    padding-top: 16vh;
+    padding-right: 5vw;
+}
+
+
+.h1-about { 
+    margin-bottom: 2vh;
+}
+    
+.hero-img-about {
+    object-fit: cover;
+    max-width: 100%;
+    justify-self: end;
+}
+
+
+.text-about-me {
+ justify-self: start;   
+}
+
+
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    margin-bottom: 4vh;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    max-width: 70ch;
+      
+}
+
+
+
+
+
+
+/* PROJEKT SIDA 1:
+Scope technologies*/
+
+
+.hero-media {
+    height: 50vh;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.top-text {
+    margin-bottom: 6vh;
+}
+
+
+.text_block_1 {
+    margin-bottom: 6vh;
+}
+
+
+.text_block_2 {
+    margin-bottom: 10vh;
+}
+
+
+.text-project {
+    margin-top: 1em;
+}
+
+.mellan-rubrik {
+    font-weight: 600;
+    margin-top: 0.5vw;
+    font-size: 1.125rem;
+    margin-bottom: 0.5vw;
+}
+
+
+.summary {
+    font-weight: 600;
+    margin-top: 0.5vw;
+    font-size: 1.25rem;
+    margin-bottom: 0.5vw;
+}
+
+
+
+.grid-before-after {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 32vw; 
+    grid-gap: 2.083vw;
+    padding-top: 8vh;
+    max-width: 100%;
+    padding-bottom: 4vh;
+    }
+
+
+.grid-visual {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 32vw minmax(125px, auto); 
+    grid-gap: 2.083vw;
+    padding-top: 8vh;
+    max-width: 100%;
+    padding-bottom: 4vh;
+}
+
+    
+.grid-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.scope-mobile {
+    display: none;
+}
+
+.photo-mobile {
+    display: none;
+}
+
+.grid-visual-photos {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 32vw minmax(125px, auto); 
+    grid-gap: 2.083vw;
+    padding-top: 8vh;
+    max-width: 100%;
+    padding-bottom: 8vh;
+}
+
+
+.after {
+    padding-top: 5vw;
+}
+
+
+.next-project:hover {
+    color:#0165E3;
+    
+}
+
+
+
+.gif-scope {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    background-color: #FBFBFB;
+    padding-top: 4vh;
+}
+
+.gif {
+    max-width: 20%;
+    align-self: center;
+}
+
+
+.result-scope-desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1.8vw;
+    flex-direction: column;
+
+}
+
+.result-scope-mobile {
+    display: none;
+}
+
+
+.text_block_3 {
+    font-style: italic;
+}
+
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.The-results {
+    padding-top: 7vh;
+}
+
+.results {
+    grid-column: span 2;
+}
+
+
+span {
+    font-weight: 800;
+
+}
+
+
+
+
+/* PROJEKT SIDA 2:
+Balenciaga website*/
+
+
+.grid_project_b_1 {
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 32vw; 
+    grid-gap: 2.083vw;
+    padding-top: 8vh;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    padding-bottom: 8vh;
+}
+
+
+
+.img-1 {
+    grid-column: span 2;
+}
+
+.img-2 {
+    grid-column: span 2;
+}
+
+
+.frame_1 {
+    grid-column: span 2;
+}
+
+   
+.wireframe-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 6vw;
+    padding-top: 6vw;
+
+}
+
+.wireframe-images {
+    max-width: 95vw;
+    align-self: center;
+    display: block;
+
+}
+
+
+.next-flex {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+.next-project {
+    padding-right: 2vw;
+    margin-top: 5vh;
+    font-weight: 800;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #1C1C1C;
+}
+
+.wireframe-mobile {
+    display: none;
+} 
+
+
+
+
+
+/* PROJEKT SIDA 3:
+Välja kampanj*/
+
+
+.hero-media-val {
+    height: 50vh;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    margin-bottom: 2vh;
+}
+
+.grid-val {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 32vw minmax(125px, auto); 
+    grid-gap: 30px;
+    padding-top: 8vh;
+    max-width: 100%;
+    padding-bottom: 14vh;
+}
+
+    
+.img-val-first {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.result-of-poster {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1.8vw;
+    flex-direction: column;
+
+}
+
+.result-images {
+    max-width: 100%;
+    flex-direction: column;
+   
+}
+
+.result-of-poster-mobile {
+    display: none;
+}
+
+
+.nextproject {
+    grid-column: span 3;
+    justify-self: end;
+    padding-right: 2vw;
+    margin-top: 5vh;
+    font-weight: 800;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #1C1C1C;
+}
+
+
+
+.text-bottom {
+    display: flex;
+    width: 100%;
+}
+
+
+.posters {
+    padding-right: 1vw;
+}
+
+
+.text_block_2 {
+    padding-top: 1vh;
+}
+
+
+
+/* PROJEKT SIDA 4:
+Startskottet*/
+
+
+.hero-media-startskottet {
+    height: 50vh;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    margin-bottom: 2vh;
+}
+
+
+.grid-research {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 32vw minmax(125px, auto); 
+    grid-gap: 30px;
+    padding-top: 8vh;
+    max-width: 100%;
+    padding-bottom: 4vh;
+    }
+
+
+
+.img-grid {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    }
+
+
+
+.grid-results {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 32vw minmax(125px, auto); 
+    grid-gap: 30px;
+    padding-top: 8vh;
+    max-width: 100%;
+    padding-bottom: 22vh;
+    }
+
+
+
+.gbg_stad {
+    color: #2284FF;
+    text-decoration: none;
+}
+
+
+
+.error {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-top: 5vw;
+    flex-direction: column;
+}
+
+.warning {
+    padding-top: 2vw;
+    padding-bottom: 5vw;
+}
+
+.kirsti-gif {
+    padding-bottom: 2vw;
+    max-width: 100%;
+}
+
+
+.back-button {
+    background-color: #0165E3; /* Green */
+    border: none;
+    color: white;
+    padding: 2vh 3vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9rem;
+  
+}
+
+
+
+
+
+
+
+
+
+/*reponsiv styling*/
+
+@media (max-width: 700px) {
+
+    
+main {
+    margin: 3vw;
+    
+    }
+
+    
+.navbar {
+    padding-top: 2vw;
+    z-index: 9999;
+       
+    }
+ 
+
+.nav-item {
+    padding-left: 0.1vw;
+    padding-right: 3vw;
+    font-size: 1rem;
+    }
+
+
+.heading {
+    font-size: 1.6rem;
+    }
+
+h2 {
+    font-size: 1.1rem;
+}
+
+.hero-container {
+    padding-top: 20vw;
+}
+
+
+.project-container {
+    grid-template-columns: 1fr;
+    margin-top: 7.552vw;
+
+    }
+
+.grid-container {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 7.552vw;
+
+}
+
+
+
+.mail-link {
+    font-size: 1rem;
+}
+
+footer {
+    padding-top: 8vw;
+}
+
+
+h1 {
+    font-size: 1.4rem;
+}
+
+.hero-media {
+    margin-bottom: 0;
+    height: 30vh;
+}
+
+p {
+    margin-top: 1vw;
+    font-size: 1rem;
+}
+
+
+.next-project {
+    font-size: 1.1rem;
+}
+
+
+.gif-scope {
+    padding-top: 1.75vh;
+}
+
+
+.gif {
+    max-width: 35%;
+}
+
+.grid_project_b_1 {
+    grid-template-rows: auto; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 3vw;
+}
+
+.img-3 {
+    display: none;
+}
+
+.grid-before-after {
+    grid-template-rows: auto; 
+    grid-template-columns: 1fr;
+}
+
+.grid-val {
+    grid-template-rows: auto; 
+    grid-template-columns: 1fr;
+}
+
+
+.scope {
+    display: none;
+}
+
+
+.scope-mobile {
+    display: block;
+    padding-top: 10vw;
+}
+
+
+.grid-visual {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1.8vw;
+    padding-top: 0;
+}
+
+
+.summary {
+    padding-bottom: 10vw;
+}
+
+.grid-val {
+    padding-bottom: 7vw;
+}
+
+.illustrations {
+    display: none;
+}
+
+.photo {
+    display: none;
+}
+
+.photo-mobile {
+    display: block;
+    padding-top: 5vw;
+}
+
+
+.mockup {
+    padding-top: 5vw;
+}
+
+.about-container {
+    grid-template-columns: 1fr;
+    padding-top: 5vh;
+    padding-right: 0;
+}
+
+.hero-img-about {
+    height: 50vh;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    padding-bottom: 2vw;
+}
+
+.text-about-me {
+    padding-bottom: 10vw;
+}
+
+
+
+
+@media (max-width: 400px) {
+
+
+    .navbar {
+        padding-bottom: 2vw;
+    }
+
+h1 {
+    font-size: 1.25rem;
+}
+
+.mellan-rubrik {
+    margin-top: 2vw;
+    font-size: 1.063rem;
+    margin-bottom: 1vw;
+}
+
+.grid-container {
+    padding-top: 1vw;
+    }
+
+    
+p {
+    margin: 0;
+    }
+
+
+
+
+.result-scope-desktop {
+  display: none;
+
+}
+
+.result-scope-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1.8vw;
+}
+
+
+.result-of-poster {
+    display: none;
+}
+
+.result-of-poster-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1.8vw;
+}
+
+.grid-val {
+    padding-bottom: 8vw;
+}
+
+.result-images {
+    padding-top: 4vh;
+}
+
+.img-val-first {
+    padding-top: 4vh;
+}
+
+
+.wireframe-1 {
+    display: none;
+} 
+
+.wireframe-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1.8vw;
+}
